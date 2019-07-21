@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.background-container{
+    background-color: bisque;
+    width: auto;
+    padding: 40px 0;
+}
+.container {
+    box-sizing: border-box;
+    width: 1100px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px red solid;
+    padding: 70px 50px;
+
+}
+.main-container {
+    border: 1px red solid;
+    width: 998px;
+}
+
+
+/* top */
+
+.top {
+    text-align: center;
+    font-size: 40px;
+}
+.title{
+    margin-bottom: 20px;
+}
+.sub-title {
+    padding: 18px 0;
+    font-size: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black; 
+}
+
+/* doc */
+.doc {
+    margin-top: 40px;
+    display: flex;
+}
+
+/* main */
+
+.main {
+    border: 1px red solid;
+    margin-right: 48px;
+    width: 700px;
+}
+.blog-container {
+    display: flex;
+    border-bottom: 1px black solid;
+    margin-bottom: 30px;
+}
+.blog-container:last-child {
+    margin-bottom: 0; 
+}
+.blog-thumbnail {
+    width: 280px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+.blog-body-container {
+    width: 400px;
+}
+.blog-text {
+    margin-top: 20px;
+}
+.blog-more {
+    text-align: end;
+    color: lightgreen;
+}
+
+/* sub */
+
+.sub {
+    width: 250px;
+    border: 1px red solid;
+}
+.sub-blog-title {
+    margin-top:10px;
+}
+.sub li {
+    margin-top: 5px;
+}
+.sub-thumbnail{
+    margin: 40px 0;
+}
+.sub-thumbnail img {
+    width: 248px;
+}
